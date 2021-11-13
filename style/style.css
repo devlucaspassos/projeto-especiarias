@@ -1,0 +1,228 @@
+@charset "UTF-8";
+
+:root {
+--cor0: #DBF4AD;
+--cor1: #E94F37;
+--cor2: #CDC776;    
+--cor3: #A5AA52;
+--cor4: #767522;
+--cor5: #373D20;
+}
+@font-face {
+    font-family: "plantsletters";
+    src: url(../fonts/plantsletters.ttf);
+}
+@font-face {
+    font-family: "naturegreen";
+    src: url(../fonts/naturegreen.otf);
+}
+@font-face {
+    font-family: "brightnature";
+    src: url(../fonts/brightnature.otf);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: var(--cor0);
+    font-family: Arial, Helvetica, sans-serif;
+}
+header {
+    min-height: 180px;
+    background-image: linear-gradient(45deg, var(--cor4), var(--cor3));
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.308);
+}
+header > h1 {
+    font-size: 4em;
+    text-align: center;
+    padding: 5px;
+    color: #fff;
+    text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.39);
+    font-family: "naturegreen";
+}
+header > p {
+    font-size: 3em;
+    text-align: center;
+    padding: 5px;
+    color: #fff;
+    text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.39);
+    font-family: "brightnature";
+
+}
+nav > ul {
+    margin-top: 10px;
+    padding: 10px 0px 10px 20px;
+    min-height: 35px;
+    background-color: var(--cor5);
+}
+nav > ul > li {
+    display: inline;
+    font-size: 1.2em;
+    margin: 5px;
+}
+nav > ul > li > a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    padding: 8px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.301);
+}
+nav > ul > li > a:hover {
+    color: var(--cor1);
+    transition: 0.5s;
+}
+main {
+    max-width: 1000px;
+    background-color: #fff;
+    margin: auto;
+    padding: 10px;
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.308);
+    border-radius: 0px 0px 5px 5px;
+}
+main > article > h1 {
+    font-size: 2.2em;
+    margin: 25px 0px;
+    padding: 20px;
+    border-radius: 10px 0px 0px 10px;
+    color: var(--cor1);
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.301);
+}
+main > article > h2 {
+    font-size: 1.6em;
+    margin: 25px 0px;
+    padding: 20px;
+    border-radius: 10px 0px 0px 10px;
+    color: var(--cor1);
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.301);
+}
+main > article > p {
+    text-align: justify;
+    padding: 10px 15px 10px 15px;
+    font-size: 1.2em;
+    text-indent: 25px;
+    line-height: 1.2em;
+    margin: 25px 0px;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.199);
+}
+main > article > p > strong {
+    color: var(--cor5);
+}
+main a {
+    text-decoration: none;
+    color: var(--cor5);
+    font-weight: bold;
+}
+main a:hover {
+    text-decoration: underline;
+}
+main img {
+    width: 100%;
+}
+.imagens {
+    text-align: center;
+}
+.descricao-das-imagens {
+    text-align: center;
+    font-size: 1em;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.199);
+    padding: 10px;
+}
+footer {
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.308);
+    min-height: 80px;
+    background-image: linear-gradient(to top, var(--cor4), var(--cor3));
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin-top: 50px;
+}
+/*propriedade dos elemntos da página "início"*/
+.spices-india {
+    max-width: 800px;
+    max-height: 500px;
+}
+/*propriedades dos elementos da página sobre especiarias*/
+.especiarias {
+    max-width: 900px;
+    max-height: 550px;
+    display: block;
+    text-align: center;
+    margin: auto;
+}
+.mullus {
+    max-width: 800px;
+    max-height: 491px;
+}
+.navios-portugueses {
+    max-width: 800px;
+    max-height: 415px;
+}
+.vasco-da-gama-em-calicute {
+    max-width: 800px;
+    max-height: 643px;
+}
+.pimenta-do-reino {
+    max-width: 800px;
+    max-height: 450px;
+    display: block;
+    text-align: center;
+    margin: auto;
+}
+.acafrao-da-terra {
+    max-width: 800px;
+    max-height: 533px;
+    display: block;
+    text-align: center;
+    margin: auto;
+}
+.canela {
+    max-width: 730px;
+    max-height: 452px;
+    display: block;
+    text-align: center;
+    margin: auto;
+}
+.cravo-da-india {
+    max-width: 650px;
+    max-height: 427px;
+    display: block;
+    text-align: center;
+    margin: auto;
+}
+.colorau {
+    max-width: 800px;
+    max-height: 476px;
+    display: block;
+    text-align: center;
+    margin: auto;
+}
+.louro {
+    max-width: 800px;
+    max-height: 532px;
+    display: block;
+    text-align: center;
+    margin: auto;
+}
+.noz-moscada {
+    max-width: 800px;
+    max-height: 533px;
+    display: block;
+    text-align: center;
+    margin: auto;
+}
+.video-especiarias {
+    position: relative;
+    padding-bottom: 56%;
+    background-color: var(--cor4);
+
+}
+.video-especiarias > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+    padding: 0px 5px;
+}
